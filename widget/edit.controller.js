@@ -1,11 +1,15 @@
+/* Copyright start
+  MIT License
+  Copyright (c) 2024 Fortinet Inc
+  Copyright end */
 "use strict";
 (function () {
   angular
     .module("cybersponse")
-    .controller("editRecordCard100Ctrl", editRecordCard100Ctrl);
+    .controller("editRecordCard101Ctrl", editRecordCard101Ctrl);
 
-  editRecordCard100Ctrl.$inject = ['$scope', '$uibModalInstance', 'config', 'appModulesService', 'Entity'];
-  function editRecordCard100Ctrl($scope, $uibModalInstance, config, appModulesService, Entity) {
+  editRecordCard101Ctrl.$inject = ['$scope', '$uibModalInstance', 'config', 'appModulesService', 'Entity'];
+  function editRecordCard101Ctrl($scope, $uibModalInstance, config, appModulesService, Entity) {
     $scope.cancel = cancel;
     $scope.save = save;
     $scope.loadAttributes = loadAttributes;

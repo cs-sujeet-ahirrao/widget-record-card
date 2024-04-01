@@ -2,12 +2,12 @@
     "name": "recordCard",
     "title": "Record Card",
     "subTitle": "Show module records in a record card format",
-    "version": "1.0.0",
-    "published_date": "1658838600",
+    "version": "1.0.1",
+    "published_date": "1706787666",
     "metadata": {
         "snapshots": [
-            "https:\/\/repo.fortisoar.fortinet.com\/widgets\/recordCard-1.0.0\/images\/record_card_view.png",
-            "https:\/\/repo.fortisoar.fortinet.com\/widgets\/recordCard-1.0.0\/images\/record_card_edit.png"
+            "https:\/\/repo.fortisoar.fortinet.com\/widgets\/recordCard-1.0.1\/images\/record_card_view.png",
+            "https:\/\/repo.fortisoar.fortinet.com\/widgets\/recordCard-1.0.1\/images\/record_card_edit.png"
         ],
         "pages": [
             "Listing",
@@ -15,8 +15,8 @@
         ],
         "certified": "Yes",
         "publisher": "Fortinet",
-        "help_online": "https:\/\/github.com\/fortinet-fortisoar\/widget-record-card\/blob\/release\/1.0.0\/README.md",
-        "description": "Show module records in a record card format",
+        "help_online": "https:\/\/github.com\/fortinet-fortisoar\/widget-record-card\/blob\/release\/1.0.1\/README.md",
+        "description": "The Record Card widget helps visualize records based on a specified data source.",
         "compatibility": [
             "7.2.0"
         ]
