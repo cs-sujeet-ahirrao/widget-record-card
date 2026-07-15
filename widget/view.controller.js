@@ -1,14 +1,14 @@
 /* Copyright start
   MIT License
-  Copyright (c) 2024 Fortinet Inc
+  Copyright (c) 2026 Fortinet Inc
   Copyright end */
 "use strict";
 (function () {
   angular
     .module("cybersponse")
-    .controller("recordCard101Ctrl", recordCard101Ctrl);
-  recordCard101Ctrl.$inject = ['$scope', 'currentPermissionsService', 'PagedCollection', 'appModulesService', '$state', '$filter', '_', '$rootScope', 'Query'];
-  function recordCard101Ctrl($scope, currentPermissionsService, PagedCollection, appModulesService, $state, $filter, _, $rootScope, Query) {
+    .controller("recordCard110Ctrl", recordCard110Ctrl);
+  recordCard110Ctrl.$inject = ['$scope', 'currentPermissionsService', 'PagedCollection', 'appModulesService', '$state', '$filter', '_', '$rootScope', 'Query'];
+  function recordCard110Ctrl($scope, currentPermissionsService, PagedCollection, appModulesService, $state, $filter, _, $rootScope, Query) {
     $scope.getList = getList;
     $scope.openRecord = openRecord;
     function init() {
@@ -53,7 +53,7 @@
           $scope.processing = false;
         });
     }
-    
+
     function openRecord(module, id) {
       var state = appModulesService.getState(module);
       var params = {
@@ -68,18 +68,28 @@
     function _setCardColors() {
       var theme = $rootScope.theme;
       $scope.cardTilesThemeColor = {};
-      if (theme.id === "light") {
-        $scope.cardTilesThemeColor.cardBackgroundColor = "#eeeeee";
-        $scope.cardTilesThemeColor.cardBorderLeftColor = "#0D9BE3";
-        $scope.cardTilesThemeColor.cardIconSeparator = "#eeeeee";
-      } else if (theme.id === "steel") {
-        $scope.cardTilesThemeColor.cardBackgroundColor = "#29323e";
-        $scope.cardTilesThemeColor.cardBorderLeftColor = "#22a6af";
-        $scope.cardTilesThemeColor.cardIconSeparator = "#29323e";
-      } else {
-        $scope.cardTilesThemeColor.cardBackgroundColor = "#262626";
-        $scope.cardTilesThemeColor.cardBorderLeftColor = "#2cafc3";
-        $scope.cardTilesThemeColor.cardIconSeparator = "#262626";
+
+      switch (theme.id) {
+        case "light":
+          $scope.cardTilesThemeColor.cardBackgroundColor = "#eeeeee";
+          $scope.cardTilesThemeColor.cardBorderLeftColor = "#0D9BE3";
+          break;
+
+        case "steel":
+          $scope.cardTilesThemeColor.cardBackgroundColor = "#29323e";
+          $scope.cardTilesThemeColor.cardBorderLeftColor = "#22a6af";
+          break;
+
+        case "dark":
+          $scope.cardTilesThemeColor.cardBackgroundColor = "#262626";
+          $scope.cardTilesThemeColor.cardBorderLeftColor = "#2cafc3";
+          break;
+
+        case "deepSea":
+        default:
+          $scope.cardTilesThemeColor.cardBackgroundColor = "#ffffff0a";
+          $scope.cardTilesThemeColor.cardBorderLeftColor = "#22a6af";
+          break;
       }
     }
 

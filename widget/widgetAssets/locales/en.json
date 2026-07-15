@@ -1,0 +1,21 @@
+{
+    "recordCard": {
+        "EDIT_VIEW_CARD_BORDER": "Left Border",
+        "EDIT_VIEW_CARD_FIELDS": "Select Card Fields",
+        "EDIT_VIEW_CLOSE_BTN_LABEL": "Close",
+        "EDIT_VIEW_DEFAULT_SORT": "Default Sort",
+        "EDIT_VIEW_FILTER_CRITERIA": "Filter Criteria",
+        "EDIT_VIEW_ICON": "Icon",
+        "EDIT_VIEW_ICON_TOOLTIP": "Select the rich text (HTML) field where the icon image is saved",
+        "EDIT_VIEW_RECORD_LIMIT": "Max Record Limit",
+        "EDIT_VIEW_SAVE_BTN_LABEL": "Save",
+        "EDIT_VIEW_SELECT_FIELD": "Select a field",
+        "EDIT_VIEW_SOURCE": "Data Source",
+        "EDIT_VIEW_SOURCE_OPTION": "Select an Option",
+        "EDIT_VIEW_SUBTITLE": "Subtitle",
+        "EDIT_VIEW_TITLE": "Title",
+        "EDIT_VIEW_TITLE_BAR": "Record Card Edit View",
+        "NO_PERMISSION": "You do not have necessary permission for ",
+        "NO_RECORD_FOUND": "No Records Found"
+    }
+}

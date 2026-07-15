@@ -1,0 +1,21 @@
+{
+    "recordCard": {
+        "EDIT_VIEW_CARD_BORDER": "왼쪽 테두리",
+        "EDIT_VIEW_CARD_FIELDS": "카드 필드 선택",
+        "EDIT_VIEW_CLOSE_BTN_LABEL": "닫기",
+        "EDIT_VIEW_DEFAULT_SORT": "기본 정렬",
+        "EDIT_VIEW_FILTER_CRITERIA": "필터 조건",
+        "EDIT_VIEW_ICON": "아이콘",
+        "EDIT_VIEW_ICON_TOOLTIP": "아이콘 이미지가 저장된 리치 텍스트(HTML) 필드를 선택합니다.",
+        "EDIT_VIEW_RECORD_LIMIT": "최대 레코드 수",
+        "EDIT_VIEW_SAVE_BTN_LABEL": "저장",
+        "EDIT_VIEW_SELECT_FIELD": "필드 선택",
+        "EDIT_VIEW_SOURCE": "데이터 소스",
+        "EDIT_VIEW_SOURCE_OPTION": "옵션 선택",
+        "EDIT_VIEW_SUBTITLE": "부제목",
+        "EDIT_VIEW_TITLE": "제목",
+        "EDIT_VIEW_TITLE_BAR": "레코드 카드 편집 보기",
+        "NO_PERMISSION": "다음에 대한 권한이 없습니다: ",
+        "NO_RECORD_FOUND": "레코드를 찾을 수 없습니다"
+    }
+}

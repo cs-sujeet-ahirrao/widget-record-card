@@ -1,0 +1,21 @@
+{
+    "recordCard": {
+        "EDIT_VIEW_CARD_BORDER": "左側邊框",
+        "EDIT_VIEW_CARD_FIELDS": "選擇卡片欄位",
+        "EDIT_VIEW_CLOSE_BTN_LABEL": "關閉",
+        "EDIT_VIEW_DEFAULT_SORT": "預設排序",
+        "EDIT_VIEW_FILTER_CRITERIA": "篩選條件",
+        "EDIT_VIEW_ICON": "圖示",
+        "EDIT_VIEW_ICON_TOOLTIP": "選擇儲存圖示影像的 RTF（HTML）欄位",
+        "EDIT_VIEW_RECORD_LIMIT": "最大記錄數",
+        "EDIT_VIEW_SAVE_BTN_LABEL": "儲存",
+        "EDIT_VIEW_SELECT_FIELD": "選擇欄位",
+        "EDIT_VIEW_SOURCE": "資料來源",
+        "EDIT_VIEW_SOURCE_OPTION": "選擇一個選項",
+        "EDIT_VIEW_SUBTITLE": "副標題",
+        "EDIT_VIEW_TITLE": "標題",
+        "EDIT_VIEW_TITLE_BAR": "記錄卡編輯檢視",
+        "NO_PERMISSION": "您沒有執行以下操作的必要權限：",
+        "NO_RECORD_FOUND": "找不到記錄"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "recordCard": {
+        "EDIT_VIEW_CARD_BORDER": "左ボーダー",
+        "EDIT_VIEW_CARD_FIELDS": "カードフィールドを選択",
+        "EDIT_VIEW_CLOSE_BTN_LABEL": "閉じる",
+        "EDIT_VIEW_DEFAULT_SORT": "デフォルトの並び順",
+        "EDIT_VIEW_FILTER_CRITERIA": "フィルター条件",
+        "EDIT_VIEW_ICON": "アイコン",
+        "EDIT_VIEW_ICON_TOOLTIP": "アイコン画像が保存されているリッチテキスト（HTML）フィールドを選択してください",
+        "EDIT_VIEW_RECORD_LIMIT": "最大レコード数",
+        "EDIT_VIEW_SAVE_BTN_LABEL": "保存",
+        "EDIT_VIEW_SELECT_FIELD": "フィールドを選択",
+        "EDIT_VIEW_SOURCE": "データソース",
+        "EDIT_VIEW_SOURCE_OPTION": "オプションを選択",
+        "EDIT_VIEW_SUBTITLE": "サブタイトル",
+        "EDIT_VIEW_TITLE": "タイトル",
+        "EDIT_VIEW_TITLE_BAR": "レコードカード編集ビュー",
+        "NO_PERMISSION": "次の操作を行う権限がありません: ",
+        "NO_RECORD_FOUND": "レコードが見つかりません"
+    }
+}

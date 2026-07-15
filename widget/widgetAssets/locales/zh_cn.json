@@ -1,0 +1,21 @@
+{
+    "recordCard": {
+        "EDIT_VIEW_CARD_BORDER": "左边框",
+        "EDIT_VIEW_CARD_FIELDS": "选择卡片字段",
+        "EDIT_VIEW_CLOSE_BTN_LABEL": "关闭",
+        "EDIT_VIEW_DEFAULT_SORT": "默认排序",
+        "EDIT_VIEW_FILTER_CRITERIA": "筛选条件",
+        "EDIT_VIEW_ICON": "图标",
+        "EDIT_VIEW_ICON_TOOLTIP": "选择保存图标图片的富文本（HTML）字段",
+        "EDIT_VIEW_RECORD_LIMIT": "最大记录数",
+        "EDIT_VIEW_SAVE_BTN_LABEL": "保存",
+        "EDIT_VIEW_SELECT_FIELD": "选择字段",
+        "EDIT_VIEW_SOURCE": "数据源",
+        "EDIT_VIEW_SOURCE_OPTION": "选择一个选项",
+        "EDIT_VIEW_SUBTITLE": "副标题",
+        "EDIT_VIEW_TITLE": "标题",
+        "EDIT_VIEW_TITLE_BAR": "记录卡编辑视图",
+        "NO_PERMISSION": "您没有以下操作的必要权限：",
+        "NO_RECORD_FOUND": "未找到记录"
+    }
+}

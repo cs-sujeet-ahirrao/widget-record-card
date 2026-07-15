@@ -1,8 +1,8 @@
 <!-- Copyright start
   MIT License
-  Copyright (c) 2024 Fortinet Inc
+  Copyright (c) 2026 Fortinet Inc
   Copyright end -->
-<link rel="stylesheet" type="text/css" href="recordCard-1.0.1/widgetAssets/css/recordCard.css" />
+<link rel="stylesheet" type="text/css" href="recordCard-1.1.0/widgetAssets/css/recordCard.css" />
 <div class="widget-container chart">
     <div class="display-flex-space-between margin-chart">
         <div class="padding-right-0 padding-left-0 widget-dashboard-title-width"
@@ -45,14 +45,15 @@
                 </div>
             </div>
         </div>
-        <div class="watermark" data-ng-if="!processing && (!fieldRows || fieldRows.length === 0)">No Records Found
+        <div class="watermark" data-ng-if="!processing && (!fieldRows || fieldRows.length === 0)">
+            {{'recordCard.NO_RECORD_FOUND' | translate}}
         </div>
         <div class="padding-top-sm padding-right-md padding-bottom-sm padding-left-md " data-ng-if="processing">
             <cs-spinner data-show-background="true"></cs-spinner>
         </div>
     </div>
     <div data-ng-show="!processing && unauthorized" class="unauthorized-message">
-        <h6 class="text-center padding-top-lg padding-bottom-lg font200 font-size-15">You do not have necessary
-            permission for {{ config.module | titlecase }}.</h6>
+        <h6 class="text-center padding-top-lg padding-bottom-lg font200 font-size-15">
+            {{'recordCard.NO_PERMISSION' | translate}} {{ config.module | titlecase }}.</h6>
     </div>
 </div>

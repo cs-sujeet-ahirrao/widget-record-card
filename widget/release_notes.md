@@ -1,4 +1,3 @@
 ## What's New
 
-- The *Title* field's is now text-wrapped for enhanced readability.
-- The card's border is now colored as per theme if no color is assigned in the card's picklist.
+- Added *Deep Sea@ theme support to ensure consistent styling and appearance with the default theme in FortiSOAR v8.0.0.
